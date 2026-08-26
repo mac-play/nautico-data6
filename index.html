@@ -144,6 +144,7 @@
             color: var(--text-secondary);
             text-transform: uppercase;
             margin-bottom: 4px;
+            line-height: 1.2;
         }
 
         .metric-box strong {
@@ -151,7 +152,7 @@
             color: var(--text-primary);
         }
 
-        .historico-section {
+        .ultimos-jogos-section {
             font-size: 0.75rem;
             color: var(--text-secondary);
             display: flex;
@@ -160,7 +161,7 @@
             flex-wrap: wrap;
         }
 
-        .historico-tag {
+        .jogo-tag {
             background: #181818;
             padding: 2px 6px;
             border-radius: 4px;
@@ -205,7 +206,7 @@
 
         async function carregarDados() {
             try {
-                const urlGitHub = 'https://raw.githubusercontent.com/mac-play/nautico-data6/main/dados.json';
+                const urlGitHub = 'https://raw.githubusercontent.com/mac-play/nautico-data6/main/dados.json?t=' + new Date().getTime();
                 console.log('Carregando de:', urlGitHub);
                 
                 const resposta = await fetch(urlGitHub);
@@ -234,7 +235,7 @@
             }
 
             atletas.forEach(atleta => {
-                const historicoHtml = atleta.historico_geral.map(val => `<span class="historico-tag">${val}%</span>`).join('');
+                const ultimosJogosHtml = atleta.ultimos_5_jogos.map(val => `<span class="jogo-tag">${val}%</span>`).join('');
 
                 const card = document.createElement('div');
                 card.className = 'atleta-card';
@@ -244,29 +245,29 @@
                             <h3>${atleta.nome}</h3>
                             <span>${atleta.posicao}</span>
                         </div>
-                        <div class="atleta-geral-badge" title="Contribuição Média no Jogo">
+                        <div class="atleta-geral-badge">
                             ${atleta.ultima_partida.geral}% Geral
                         </div>
                     </div>
                     
                     <div class="metrics-grid">
                         <div class="metric-box">
-                            <span>Defensiva</span>
-                            <strong>${atleta.ultima_partida.defensiva}%</strong>
+                            <span>Participação<br>Defensiva</span>
+                            <strong>${atleta.ultima_partida.participacao_defensiva}%</strong>
                         </div>
                         <div class="metric-box">
-                            <span>Criativa</span>
-                            <strong>${atleta.ultima_partida.criativa}%</strong>
+                            <span>Participação<br>Criativa</span>
+                            <strong>${atleta.ultima_partida.participacao_criativa}%</strong>
                         </div>
                         <div class="metric-box">
-                            <span>Ofensiva</span>
-                            <strong>${atleta.ultima_partida.ofensiva}%</strong>
+                            <span>Participação<br>Ofensiva</span>
+                            <strong>${atleta.ultima_partida.participacao_ofensiva}%</strong>
                         </div>
                     </div>
 
-                    <div class="historico-section">
-                        <span>Histórico Geral:</span>
-                        ${historicoHtml}
+                    <div class="ultimos-jogos-section">
+                        <span>Últimos 5 Jogos:</span>
+                        ${ultimosJogosHtml}
                     </div>
                 `;
                 container.appendChild(card);
