@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scout Exclusivo | Náutico</title>
-    <!-- Fonte moderna do Google -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -13,7 +12,7 @@
             --card-border: #222222;
             --text-primary: #ffffff;
             --text-secondary: #888888;
-            --neon-red: #ff1e38; /* Vermelho neon cirúrgico */
+            --neon-red: #ff1e38;
             --neon-glow: rgba(255, 30, 56, 0.25);
         }
 
@@ -96,6 +95,7 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 15px;
+            gap: 10px;
         }
 
         .atleta-info h3 {
@@ -119,6 +119,7 @@
             font-weight: 800;
             font-size: 0.9rem;
             box-shadow: 0 0 8px var(--neon-glow);
+            white-space: nowrap;
         }
 
         .metrics-grid {
@@ -170,6 +171,11 @@
             .metrics-grid {
                 grid-template-columns: 1fr;
             }
+            
+            .atleta-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
         }
     </style>
 </head>
@@ -177,7 +183,7 @@
 
     <header>
         <h1>Scout Exclusivo <span>Náutico</span></h1>
-        <p id="subtitulo-atualizacao">Carregando dados da última partida...</p>
+        <p id="subtitulo-atualizacao">Carregando dados...</p>
     </header>
 
     <div class="search-container">
@@ -185,26 +191,79 @@
     </div>
 
     <div id="atletas-container">
-        <!-- Os atletas serão injetados dinamicamente via JavaScript -->
+        <!-- Os atletas serão injetados aqui -->
     </div>
 
     <script>
+        // Dados dos atletas incorporados diretamente
+        const dados = {
+            "ultima_atualizacao": "2026-08-24 - Náutico vs Sport",
+            "atletas": [
+                {
+                    "atleta_id": "joao_silva",
+                    "nome": "João Silva",
+                    "posicao": "Meia",
+                    "ultima_partida": {
+                        "adversario": "Sport",
+                        "data": "2026-08-24",
+                        "defensiva": 15,
+                        "criativa": 45,
+                        "ofensiva": 20,
+                        "geral": 32
+                    },
+                    "historico_geral": [28, 35, 30, 28, 25]
+                },
+                {
+                    "atleta_id": "carlos_santos",
+                    "nome": "Carlos Santos",
+                    "posicao": "Zagueiro",
+                    "ultima_partida": {
+                        "adversario": "Sport",
+                        "data": "2026-08-24",
+                        "defensiva": 75,
+                        "criativa": 30,
+                        "ofensiva": 10,
+                        "geral": 48
+                    },
+                    "historico_geral": [45, 50, 48, 52, 46]
+                },
+                {
+                    "atleta_id": "bruno_costa",
+                    "nome": "Bruno Costa",
+                    "posicao": "Atacante",
+                    "ultima_partida": {
+                        "adversario": "Sport",
+                        "data": "2026-08-24",
+                        "defensiva": 20,
+                        "criativa": 55,
+                        "ofensiva": 80,
+                        "geral": 65
+                    },
+                    "historico_geral": [60, 65, 70, 58, 62]
+                },
+                {
+                    "atleta_id": "felipe_oliveira",
+                    "nome": "Felipe Oliveira",
+                    "posicao": "Lateral Direito",
+                    "ultima_partida": {
+                        "adversario": "Sport",
+                        "data": "2026-08-24",
+                        "defensiva": 55,
+                        "criativa": 40,
+                        "ofensiva": 35,
+                        "geral": 44
+                    },
+                    "historico_geral": [40, 42, 45, 43, 41]
+                }
+            ]
+        };
+
         let listaAtletas = [];
-const urlDados = 'https://raw.githubusercontent.com/mac-play/nautico-data6/main/dados.json';
-        // Substitua pelo link direto do seu arquivo dados.json no GitHub (modo Raw)
-        
-        async function carregarDados() {
-            try {
-                const resposta = await fetch(urlDados);
-                const dados = await resposta.json();
-                
-                document.getElementById('subtitulo-atualizacao').innerText = `Referência: ${dados.ultima_atualizacao}`;
-                listaAtletas = dados.atletas;
-                renderizarAtletas(listaAtletas);
-            } catch (erro) {
-                console.error('Erro ao carregar dados:', erro);
-                document.getElementById('subtitulo-atualizacao').innerText = 'Erro ao carregar dados do scout.';
-            }
+
+        function inicializar() {
+            document.getElementById('subtitulo-atualizacao').innerText = `Referência: ${dados.ultima_atualizacao}`;
+            listaAtletas = dados.atletas;
+            renderizarAtletas(listaAtletas);
         }
 
         function renderizarAtletas(atletas) {
@@ -248,7 +307,7 @@ const urlDados = 'https://raw.githubusercontent.com/mac-play/nautico-data6/main/
                     </div>
 
                     <div class="historico-section">
-                        <span>Histórico Geral (Partidas Anteriores):</span>
+                        <span>Histórico Geral:</span>
                         ${historicoHtml}
                     </div>
                 `;
@@ -265,8 +324,9 @@ const urlDados = 'https://raw.githubusercontent.com/mac-play/nautico-data6/main/
             renderizarAtletas(filtrados);
         }
 
-        // Executa ao carregar a página
-        carregarDados();
+        // Inicializa ao carregar a página
+        window.addEventListener('DOMContentLoaded', inicializar);
+        inicializar();
     </script>
 </body>
 </html>
