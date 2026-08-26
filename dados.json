@@ -1,61 +1,258 @@
 {
-  "ultima_atualizacao": "2026-08-24 - Náutico vs Sport",
+  "ultima_atualizacao": "2026-08-26 - Elenco Completo",
   "atletas": [
     {
-      "atleta_id": "joao_silva",
-      "nome": "João Silva",
-      "posicao": "Meia",
+      "nome": "Nikollas",
+      "posicao": "Goleiro",
       "ultima_partida": {
-        "adversario": "Sport",
-        "data": "2026-08-24",
-        "defensiva": 15,
-        "criativa": 45,
-        "ofensiva": 20,
-        "geral": 32
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
       },
-      "historico_geral": [28, 35, 30, 28, 25]
+      "historico_geral": [0, 0, 0, 0, 0]
     },
     {
-      "atleta_id": "carlos_santos",
-      "nome": "Carlos Santos",
-      "posicao": "Zagueiro",
+      "nome": "Mão",
+      "posicao": "Goleiro",
       "ultima_partida": {
-        "adversario": "Sport",
-        "data": "2026-08-24",
-        "defensiva": 75,
-        "criativa": 30,
-        "ofensiva": 10,
-        "geral": 48
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
       },
-      "historico_geral": [45, 50, 48, 52, 46]
+      "historico_geral": [0, 0, 0, 0, 0]
     },
     {
-      "atleta_id": "bruno_costa",
-      "nome": "Bruno Costa",
+      "nome": "Pietro",
+      "posicao": "Defensor",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Gledson",
+      "posicao": "Defensor",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Dhonatan",
+      "posicao": "Defensor",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Vini",
+      "posicao": "Defensor",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Guilherme Faria",
+      "posicao": "Defensor",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "João Marcelo",
+      "posicao": "Defensor",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Vinícios Gabriel",
+      "posicao": "Defensor",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Vinícius Oliveira",
+      "posicao": "Defensor",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Matheus Uchôa",
+      "posicao": "Meio-Campista",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Marcelinho",
+      "posicao": "Meio-Campista",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Pedro Ricardo",
+      "posicao": "Meio-Campista",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Thiago da Paz",
+      "posicao": "Meio-Campista",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Eric",
+      "posicao": "Meio-Campista",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Marley",
+      "posicao": "Meio-Campista",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Wendell",
+      "posicao": "Meio-Campista",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Rosa",
       "posicao": "Atacante",
       "ultima_partida": {
-        "adversario": "Sport",
-        "data": "2026-08-24",
-        "defensiva": 20,
-        "criativa": 55,
-        "ofensiva": 80,
-        "geral": 65
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
       },
-      "historico_geral": [60, 65, 70, 58, 62]
+      "historico_geral": [0, 0, 0, 0, 0]
     },
     {
-      "atleta_id": "felipe_oliveira",
-      "nome": "Felipe Oliveira",
-      "posicao": "Lateral Direito",
+      "nome": "Lukayann",
+      "posicao": "Atacante",
       "ultima_partida": {
-        "adversario": "Sport",
-        "data": "2026-08-24",
-        "defensiva": 55,
-        "criativa": 40,
-        "ofensiva": 35,
-        "geral": 44
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
       },
-      "historico_geral": [40, 42, 45, 43, 41]
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Daniel",
+      "posicao": "Atacante",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Halanzinho",
+      "posicao": "Atacante",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Adrian",
+      "posicao": "Atacante",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
+    },
+    {
+      "nome": "Wellington Bigode",
+      "posicao": "Atacante",
+      "ultima_partida": {
+        "defensiva": 0,
+        "criativa": 0,
+        "ofensiva": 0,
+        "geral": 0
+      },
+      "historico_geral": [0, 0, 0, 0, 0]
     }
   ]
 }
