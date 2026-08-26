@@ -1,0 +1,46 @@
+{
+  "atleta_id": "joao_silva",
+  "nome": "João Silva",
+  "posicao": "Meia",
+  "ultima_partida": {
+    "adversario": "Sport",
+    "data": "2026-08-24",
+    "defensiva": 15,
+    "criativa": 45,
+    "ofensiva": 20,
+    "geral": 32
+  },
+  "historico_partidas": [
+    {
+      "partida": "Náutico vs Santa Cruz",
+      "geral": 28
+    },
+    {
+      "partida": "Retrô vs Náutico",
+      "geral": 35
+    }
+  ]
+},
+{
+  "atleta_id": "joao_silva",
+  "nome": "João Silva",
+  "posicao": "Meia",
+  "ultima_partida": {
+    "adversario": "Sport",
+    "data": "2026-08-24",
+    "defensiva": 15,
+    "criativa": 45,
+    "ofensiva": 20,
+    "geral": 32
+  },
+  "historico_partidas": [
+    {
+      "partida": "Náutico vs Santa Cruz",
+      "geral": 28
+    },
+    {
+      "partida": "Retrô vs Náutico",
+      "geral": 35
+    }
+  ]
+}
