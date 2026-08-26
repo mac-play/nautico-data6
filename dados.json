@@ -1,46 +1,61 @@
 {
-  "atleta_id": "joao_silva",
-  "nome": "João Silva",
-  "posicao": "Meia",
-  "ultima_partida": {
-    "adversario": "Sport",
-    "data": "2026-08-24",
-    "defensiva": 15,
-    "criativa": 45,
-    "ofensiva": 20,
-    "geral": 32
-  },
-  "historico_partidas": [
+  "ultima_atualizacao": "2026-08-24 - Náutico vs Sport",
+  "atletas": [
     {
-      "partida": "Náutico vs Santa Cruz",
-      "geral": 28
+      "atleta_id": "joao_silva",
+      "nome": "João Silva",
+      "posicao": "Meia",
+      "ultima_partida": {
+        "adversario": "Sport",
+        "data": "2026-08-24",
+        "defensiva": 15,
+        "criativa": 45,
+        "ofensiva": 20,
+        "geral": 32
+      },
+      "historico_geral": [28, 35, 30, 28, 25]
     },
     {
-      "partida": "Retrô vs Náutico",
-      "geral": 35
-    }
-  ]
-},
-{
-  "atleta_id": "joao_silva",
-  "nome": "João Silva",
-  "posicao": "Meia",
-  "ultima_partida": {
-    "adversario": "Sport",
-    "data": "2026-08-24",
-    "defensiva": 15,
-    "criativa": 45,
-    "ofensiva": 20,
-    "geral": 32
-  },
-  "historico_partidas": [
-    {
-      "partida": "Náutico vs Santa Cruz",
-      "geral": 28
+      "atleta_id": "carlos_santos",
+      "nome": "Carlos Santos",
+      "posicao": "Zagueiro",
+      "ultima_partida": {
+        "adversario": "Sport",
+        "data": "2026-08-24",
+        "defensiva": 75,
+        "criativa": 30,
+        "ofensiva": 10,
+        "geral": 48
+      },
+      "historico_geral": [45, 50, 48, 52, 46]
     },
     {
-      "partida": "Retrô vs Náutico",
-      "geral": 35
+      "atleta_id": "bruno_costa",
+      "nome": "Bruno Costa",
+      "posicao": "Atacante",
+      "ultima_partida": {
+        "adversario": "Sport",
+        "data": "2026-08-24",
+        "defensiva": 20,
+        "criativa": 55,
+        "ofensiva": 80,
+        "geral": 65
+      },
+      "historico_geral": [60, 65, 70, 58, 62]
+    },
+    {
+      "atleta_id": "felipe_oliveira",
+      "nome": "Felipe Oliveira",
+      "posicao": "Lateral Direito",
+      "ultima_partida": {
+        "adversario": "Sport",
+        "data": "2026-08-24",
+        "defensiva": 55,
+        "criativa": 40,
+        "ofensiva": 35,
+        "geral": 44
+      },
+      "historico_geral": [40, 42, 45, 43, 41]
     }
   ]
 }
