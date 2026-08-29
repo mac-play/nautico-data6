@@ -5,9 +5,9 @@
       "nome": "Nikollas",
       "posicao": "Goleiro",
       "ultima_partida": {
-        "participacao_defensiva": 0,
+        "participacao_defensiva": 19.2,
         "participacao_criativa": 0,
-        "seguranca": 0,
+        "seguranca": 75,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -38,9 +38,9 @@
       "nome": "Gledson",
       "posicao": "Defensor",
       "ultima_partida": {
-        "participacao_defensiva": 0,
-        "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_defensiva": 9.6,
+        "participacao_criativa": 4.35,
+        "participacao_ofensiva": 5,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -60,9 +60,9 @@
       "nome": "Vini",
       "posicao": "Defensor",
       "ultima_partida": {
-        "participacao_defensiva": 0,
-        "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_defensiva": 4.8,
+        "participacao_criativa": 17.4,
+        "participacao_ofensiva": 5,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -82,9 +82,9 @@
       "nome": "João Marcelo",
       "posicao": "Defensor",
       "ultima_partida": {
-        "participacao_defensiva": 0,
+        "participacao_defensiva": 9.6,
         "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_ofensiva": 10,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -117,7 +117,7 @@
       "ultima_partida": {
         "participacao_defensiva": 0,
         "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_ofensiva": 10,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -126,7 +126,7 @@
       "nome": "Marcelinho",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "participacao_defensiva": 0,
+        "participacao_defensiva": 2.4,
         "participacao_criativa": 0,
         "participacao_ofensiva": 0,
         "geral": 0
@@ -137,9 +137,9 @@
       "nome": "Pedro Ricardo",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "participacao_defensiva": 0,
-        "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_defensiva": 7.2,
+        "participacao_criativa": 8.7,
+        "participacao_ofensiva": 5,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -182,8 +182,8 @@
       "posicao": "Meio-Campista",
       "ultima_partida": {
         "participacao_defensiva": 0,
-        "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_criativa": 4.35,
+        "participacao_ofensiva": 5,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -192,9 +192,9 @@
       "nome": "Rosa",
       "posicao": "Atacante",
       "ultima_partida": {
-        "participacao_defensiva": 0,
-        "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_defensiva": 2.4,
+        "participacao_criativa": 8.7,
+        "participacao_ofensiva": 5,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -203,8 +203,8 @@
       "nome": "Lukayann",
       "posicao": "Atacante",
       "ultima_partida": {
-        "participacao_defensiva": 0,
-        "participacao_criativa": 0,
+        "participacao_defensiva": 4.8,
+        "participacao_criativa": 17.4,
         "participacao_ofensiva": 0,
         "geral": 0
       },
@@ -214,9 +214,9 @@
       "nome": "Daniel",
       "posicao": "Atacante",
       "ultima_partida": {
-        "participacao_defensiva": 0,
-        "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_defensiva": 4.8,
+        "participacao_criativa": 13,
+        "participacao_ofensiva": 10,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -225,9 +225,9 @@
       "nome": "Halanzinho",
       "posicao": "Atacante",
       "ultima_partida": {
-        "participacao_defensiva": 0,
-        "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_defensiva": 2.4,
+        "participacao_criativa": 4.35,
+        "participacao_ofensiva": 15,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -246,9 +246,9 @@
       "nome": "Hector ",
       "posicao": "Defensor",
       "ultima_partida": {
-        "participacao_defensiva": 0,
-        "participacao_criativa": 0,
-        "Participacao_ofensiva": 0,
+        "participacao_defensiva": 9.6,
+        "participacao_criativa": 17.4,
+        "Participacao_ofensiva": 5,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
@@ -256,9 +256,9 @@
       "nome": "Rikelme",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "participacao_defensiva": 0,
-        "participacao_criativa": 0,
-        "participacao_ofensiva": 0,
+        "participacao_defensiva": 4.8,
+        "participacao_criativa": 4.35,
+        "participacao_ofensiva": 10,
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
