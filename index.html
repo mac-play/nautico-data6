@@ -174,11 +174,60 @@
             color: var(--text-secondary);
         }
 
+        /* --- ESTILOS DA CAIXA FLUTUANTE DE ANÚNCIO --- */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro semi-transparente */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* Garante que fique acima de tudo */
+        }
+
+        .modal-content {
+            position: relative;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+            text-align: center;
+        }
+
+        .btn-fechar {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            background-color: var(--neon-red);
+            color: white;
+            border: none;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 0 8px var(--neon-glow);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s;
+        }
+
+        .btn-fechar:hover {
+            transform: scale(1.1);
+        }
+        /* --------------------------------------------- */
+
         @media (max-width: 600px) {
             .metrics-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .atleta-header {
                 flex-direction: column;
                 align-items: flex-start;
@@ -188,6 +237,21 @@
 </head>
 <body>
 
+    <div id="anuncioModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="btn-fechar" onclick="fecharAnuncio()">×</button>
+            <script>
+              atOptions = {
+                'key' : 'b3549806fa0a3c50dbc2f3e421a0ed37',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+              };
+            </script>
+            <script src="https://www.highrevenueformat.com/b3549806fa0a3c50dbc2f3e421a0ed37/invoke.js"></script>
+        </div>
+    </div>
     <header>
         <h1>Scout Exclusivo <span>Náutico</span></h1>
         <p id="subtitulo-atualizacao">Carregando dados...</p>
@@ -207,14 +271,10 @@
         async function carregarDados() {
             try {
                 const urlGitHub = 'https://raw.githubusercontent.com/mac-play/nautico-data6/main/dados.json?t=' + new Date().getTime();
-                console.log('Carregando de:', urlGitHub);
-                
                 const resposta = await fetch(urlGitHub);
                 if (!resposta.ok) throw new Error('HTTP ' + resposta.status);
-                
+
                 const dados = await resposta.json();
-                console.log('Dados carregados:', dados);
-                
                 document.getElementById('subtitulo-atualizacao').innerText = `Referência: ${dados.ultima_atualizacao}`;
                 listaAtletas = dados.atletas;
                 renderizarAtletas(listaAtletas);
@@ -265,6 +325,7 @@
                         </div>
                     </div>
 
+                    <div class="ultimos-jogos-space"></div>
                     <div class="ultimos-jogos-section">
                         <span>Últimos 5 Jogos:</span>
                         ${ultimosJogosHtml}
@@ -281,6 +342,12 @@
                 atleta.posicao.toLowerCase().includes(termo)
             );
             renderizarAtletas(filtrados);
+        }
+
+        // Função para fechar o anúncio
+        function fecharAnuncio() {
+            const modal = document.getElementById('anuncioModal');
+            modal.style.display = 'none';
         }
 
         // Carrega os dados ao abrir a página
