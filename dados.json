@@ -162,7 +162,7 @@
         "participacao_defensiva": 0,
         "participacao_criativa": 0,
         "participacao_ofensiva": 0,
-        "geral": 17.6
+        "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
@@ -184,7 +184,7 @@
         "participacao_defensiva": 0,
         "participacao_criativa": 4.35,
         "participacao_ofensiva": 5,
-        "geral": 0
+        "geral": 17.6
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
@@ -195,7 +195,7 @@
         "participacao_defensiva": 2.4,
         "participacao_criativa": 8.7,
         "participacao_ofensiva": 5,
-        "geral": 0
+        "geral": 20
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
@@ -206,7 +206,7 @@
         "participacao_defensiva": 4.8,
         "participacao_criativa": 17.4,
         "participacao_ofensiva": 0,
-        "geral": 0
+        "geral": 30
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
@@ -217,7 +217,7 @@
         "participacao_defensiva": 4.8,
         "participacao_criativa": 13,
         "participacao_ofensiva": 10,
-        "geral": 0
+        "geral": 35
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
@@ -228,7 +228,7 @@
         "participacao_defensiva": 2.4,
         "participacao_criativa": 4.35,
         "participacao_ofensiva": 15,
-        "geral": 0
+        "geral": 29.4
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
@@ -260,6 +260,16 @@
         "participacao_criativa": 4.35,
         "participacao_ofensiva": 10,
         "geral": 12.8
+      },
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
+    },{
+      "nome": "isac",
+      "posicao": "Meio-Campista",
+      "ultima_partida": {
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 15,
+        "geral": 15
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
