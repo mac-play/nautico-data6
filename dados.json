@@ -10,13 +10,13 @@
         "participacao_ofensiva": 0,
         "geral": 0
       },
-      "ultimos_5_jogos": [0, 00, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Mão",
       "posicao": "Goleiro",
       "ultima_partida": {
-        "participacao_defensiva": 20,
+        "participacao_defensiva": 0,
         "participacao_criativa": 0,
         "participacao_ofensiva": 0,
         "geral": 0
