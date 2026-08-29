@@ -242,6 +242,26 @@
         "geral": 0
       },
       "ultimos_5_jogos": [0, 0, 0, 0, 0]
+    },{
+      "nome": "Hector ",
+      "posicao": "Defensor",
+      "ultima_partida": {
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "Participacao_ofensiva": 0,
+        "geral": 0
+      },
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
+    },{
+      "nome": "Rikelme",
+      "posicao": "Meio-Campista",
+      "ultima_partida": {
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
+        "geral": 0
+      },
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Wellington Bigode",
