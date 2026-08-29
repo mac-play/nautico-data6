@@ -5,254 +5,254 @@
       "nome": "Nikollas",
       "posicao": "Goleiro",
       "ultima_partida": {
-        "defensiva": 33,
-        "criativa": 66,
-        "ofensiva": 0,
+        "participacao_defensiva": 33,
+        "participacao_criativa": 66,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 99, 0, 0, 0]
+      "ultimos_5_jogos": [0, 99, 0, 0, 0]
     },
     {
       "nome": "Mão",
       "posicao": "Goleiro",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Pietro",
       "posicao": "Defensor",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Gledson",
       "posicao": "Defensor",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Dhonatan",
       "posicao": "Defensor",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Vini",
       "posicao": "Defensor",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Guilherme Faria",
       "posicao": "Defensor",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "João Marcelo",
       "posicao": "Defensor",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Vinícios Gabriel",
       "posicao": "Defensor",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Vinícius Oliveira",
       "posicao": "Defensor",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Matheus Uchôa",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Marcelinho",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Pedro Ricardo",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Thiago da Paz",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Eric",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Marley",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Wendell",
       "posicao": "Meio-Campista",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Rosa",
       "posicao": "Atacante",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Lukayann",
       "posicao": "Atacante",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Daniel",
       "posicao": "Atacante",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Halanzinho",
       "posicao": "Atacante",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Adrian",
       "posicao": "Atacante",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     },
     {
       "nome": "Wellington Bigode",
       "posicao": "Atacante",
       "ultima_partida": {
-        "defensiva": 0,
-        "criativa": 0,
-        "ofensiva": 0,
+        "participacao_defensiva": 0,
+        "participacao_criativa": 0,
+        "participacao_ofensiva": 0,
         "geral": 0
       },
-      "historico_geral": [0, 0, 0, 0, 0]
+      "ultimos_5_jogos": [0, 0, 0, 0, 0]
     }
   ]
 }
