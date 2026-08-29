@@ -5,12 +5,12 @@
       "nome": "Nikollas",
       "posicao": "Goleiro",
       "ultima_partida": {
-        "participacao_defensiva": 33,
-        "participacao_criativa": 66,
+        "participacao_defensiva": 00,
+        "participacao_criativa": 00,
         "participacao_ofensiva": 0,
         "geral": 0
       },
-      "ultimos_5_jogos": [0, 99, 0, 0, 0]
+      "ultimos_5_jogos": [0, 00, 0, 0, 0]
     },
     {
       "nome": "Mão",
